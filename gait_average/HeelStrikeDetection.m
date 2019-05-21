@@ -63,7 +63,7 @@ if ~ strcmp(SaveName, 'None')
     fclose(fileID);
     
     fileID = fopen(strcat(SaveName, '_RHeelStrikes.txt'),'w');
-    fprintf(fileID,'%d\n',round(LHeelStrikes));
+    fprintf(fileID,'%d\n',round(RHeelStrikes));
     fclose(fileID);
    
 end
